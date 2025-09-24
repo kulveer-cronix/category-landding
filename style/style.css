@@ -20,6 +20,7 @@
 .card{
     margin-top: 10vh;
     padding:20px;
+    width: fit-content;
     border-radius: 8px;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.321);
 }
