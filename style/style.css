@@ -13,8 +13,6 @@
     margin: 0 auto;
 }
 
-
-
 /***** Section category*****/  
 
 .card{
@@ -39,34 +37,30 @@
     border-top: 1px solid grey;
 }
 
-
-
 .heading h3{
-    color: black;
-    font-size: 20px;
-    margin: 14px 0;
+    color: rgb(85, 84, 84);
+    font-size: 12px;
+    margin: 10px 0;
     font-family: Roboto;
     overflow: hidden;
+    text-transform: uppercase;
+    font-weight: 400;
 }
 
 .heading p{
-    font-size: 14px;
-    font-weight: 700;
-    color: gray;
-    margin: 14px 0;
+    font-size: 16px;
+    font-weight: 500;
+    color: black;
+    margin: 10px 0;
     font-family: Roboto;
 }
 
 .heading .price-p{
     color: #111;
-    font-size: 18px;
-   display: flex;
-   justify-content: space-between;
-
-}
-
-.heading .price-p i{
-    color: gold;
+    font-size: 20px;
+    display: flex;
+    font-weight: 800;
+    justify-content: space-between;
 }
 
 .card-text button{
@@ -79,11 +73,11 @@
     background-color: #fff;
     border-radius: 8px;
     margin-top: 8px;    
+    text-transform: capitalize;
 }
 .card-text button:hover{
     background-color: #111;
     color: #fff;   
-   
     border: 2px solid #fff;
 }
 
