@@ -20,7 +20,7 @@
 .card{
     margin-top: 10vh;
     padding:20px;
-    width: fit-content;
+    width: 300px;
     border-radius: 8px;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.321);
 }
@@ -39,25 +39,34 @@
     border-top: 1px solid grey;
 }
 
-.card-text .heading{
-    display: flex; 
-    align-items: end;
-    justify-content: space-between;
-}
+
 
 .heading h3{
     color: black;
     font-size: 20px;
     margin: 14px 0;
     font-family: Roboto;
+    overflow: hidden;
 }
 
 .heading p{
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 700;
     color: gray;
     margin: 14px 0;
     font-family: Roboto;
+}
+
+.heading .price-p{
+    color: #111;
+    font-size: 18px;
+   display: flex;
+   justify-content: space-between;
+
+}
+
+.heading .price-p i{
+    color: gold;
 }
 
 .card-text button{
