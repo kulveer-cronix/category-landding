@@ -81,5 +81,9 @@
     border: 2px solid #fff;
 }
 
+category-cards{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
 
 /***** End Section category*****/
